@@ -1,2 +1,2 @@
 # Kotrana-FA
-This is Training Project For Front-End Awards
+This is Training Project For Front-End Awards 2021

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(214, 242, 253);
+    color: black;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.header .titre{
+    font-weight: 900;
+    font-size: 1.25em;
+    
+}
+.header .pages ul{
+    display: flex;
+}
+.header .pages ul .page{
+    list-style: none;
+    margin: -10px 20px;
+    font-weight: 600;
+    opacity: 0.65;
+}
+.header .pages ul .page a{
+    text-decoration: none;
+}
+.header .pages ul .page :hover{
+    background: cyan;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    transition: all 0.3s ease 0.2s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.header span .fas{
+    margin-right: 15px;
+    font-size: 1.2em;
+    margin: 3px 20px;
+}
+.header span .far{
+    margin-left: 20px;
+    font-size: 1.3em;
+}
+.header span button{
+    border-radius: 10px;
+    border-style: none;
+    background-color: #00ffff;
+}
+.header span button :hover{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(26, 71, 71);
+}
+.image img{
+    margin-top: 15vh;
+    margin-left: 137vh;
+    width: 70vh;
+    height: 62vh;
+}
+.text .prems{
+    margin-top: -315px;
+    margin-left: 150px;
+    margin-right: 750px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.text .second{
+    margin-top: -30px;
+    margin-left: 150px;
+    margin-right: 750px;
+    font-size: 15px;
+    opacity: .6;
+}
+section p.separate{
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 600;
+}
+.reward{
+    display: flex;
+}
+.reward .note{
+    padding: 15px;
+    margin: 15px 0 0 80px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.reward .note span{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+.reward .note .desc1{
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 15px;
+    opacity: .6;
+}
+.reward .note .rate{
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0f42a1;
+}
+.reward .awards{
+    padding: 15px;
+    margin: 15px 0 0 80px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.reward .awards span{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+    margin-left: 20px;
+
+}
+.reward .awards .desc2{
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 15px;
+    opacity: .6;
+}
+.reward .awards .go{
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0f42a1;
+}
+.about{
+    padding: 15px;
+    margin: 15px 0 0 80px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+.about .desc3{
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.about .desc4{
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 15px;
+    opacity: .6;
+}
+.about .bout{
+    margin-left: 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0f42a1;
+}
